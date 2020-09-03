@@ -1,0 +1,145 @@
+body{
+	font-family: 'Fira Sans', sans-serif;
+}
+
+/* MENU BAR CSS */
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+
+
+/* MENU BAR CSS ENDS */
+
+.main {
+  margin-top: 28px; /* Add a top margin to avoid content overlay */
+}
+
+.top{
+	height : 800px;
+	background-image: url("webSiteBg.jpg");
+	background-position: center;
+	background-size: 100% 100%;
+
+}
+
+.hello{
+	font-family: 'Fira Sans', sans-serif;
+	text-align: center; 
+	color: white; 
+	font-size: 17px; 
+	padding-top: 220px;
+}
+
+.name{
+	font-family: 'Fira Sans', sans-serif;
+	text-align: center; 
+	color: white; 
+	font-size: 50px; 
+	
+}
+
+.student{
+	font-family: 'Fira Sans', sans-serif;
+	text-align: center; 
+	color: white; 
+	font-size: 17px; 
+
+}
+
+.myImage{
+	margin-left: 200px;
+	padding-bottom: 30px;
+	height: 100%;
+	width:55%;
+	border-radius: 45%;
+	border: 1px solid #555;
+
+}
+
+.mySkillsDiv{
+	height : 600px;
+	
+
+}
+.column1{
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ6CQRqY0PMu6zFQJEfCacoRyUch_mCAP_4mQ&usqp=CAU");
+
+	background-repeat: no-repeat;
+	background-size: 650px 600px;
+
+
+}
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  border-radius: 100px;
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+	margin-left: -12px;
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 95%; border-radius: 100px; background-color: #4CAF50;} /* Green */
+.css {width: 70%; border-radius: 100px;background-color: #2196F3;} /* Blue */
+.js {width: 65%; border-radius: 100px;background-color: #EE6E13;} /* Tomato color */
+.php {width: 60%; border-radius: 100px;background-color: #808080;} /* Dark Grey */
+
+.first{
+	
+	height : 600px;
+	
+
+
+}
+
+.about{
+height : 300px;	
+}
+
+.second{
+	/*background-color: #E9F8FC;
+	background: -webkit-linear-gradient(top, rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%);
+    */
+    background-color: #EDE7DF;
+    height : 900px;
+
+}
+
+.images{
+	padding-top: 40px;
+	padding-left: 50px;
+	
+	height: 400px;
+	width : 400px;
+	
+}
